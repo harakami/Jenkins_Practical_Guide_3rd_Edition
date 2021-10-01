@@ -20,6 +20,12 @@
      - appspec.yml
      - deploy.sh
    discard-paths: yes 
+ reports:
+   junit:
+     files:
+      - '**/*'
+     base-directory: "target/surefire-reports"
+     file-format: 'JunitXML'   
  cache: 
    paths: 
      - '/root/.m2/**/*' 
