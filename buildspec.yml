@@ -19,6 +19,7 @@
      - target/sampleproject.war
      - appspec.yml
      - deploy.sh
+     - target/surefire-reports/*
    discard-paths: yes 
  reports:
    junit:
