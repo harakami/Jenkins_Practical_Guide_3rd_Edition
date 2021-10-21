@@ -66,6 +66,8 @@
     <!-- JaCoCo Properties -->
     <jacoco-maven.version>0.7.9</jacoco-maven.version>
     <jacoco.include.package>**/*</jacoco.include.package>
+    
+    <artifacory-maven.version>3.2.3</artifacory-maven.version>
   </properties>
   
   <build>
